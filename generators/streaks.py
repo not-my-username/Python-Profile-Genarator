@@ -14,9 +14,8 @@ for i in ascii_name:
     x += i
 
 x = x *10000 + x * 10000 + x
-print(x)
+
 colour = [int(str(x)[:3]) % 256, int(str(x)[int(len(str(x))/2):int((len(str(x))/2)+3)]) % 256, int(str(x)[6:]) % 256]
-print(colour)
 
 
 img = Image.new('RGB', [10, 10], (255, 255, 255))
