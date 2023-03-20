@@ -1,3 +1,5 @@
+# This project is no longer under development, and is very incomplete
+
 # Python Profile Image Generator
 
 This is a group of profile picture generators written in python. Each pattern generator is a different file. They can be used individually or using main.py as a GUI or shell script.
